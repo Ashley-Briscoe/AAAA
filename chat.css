@@ -9,7 +9,7 @@ body{
 
 }
 button{
-    left: 50%;
+    left: 150px;
     width: 150px;
     height: 100px;
     bottom: 500px;
@@ -17,6 +17,7 @@ button{
     line-height:80px
     text-align: center;
 	line-height: 0.9em
+	position: fixed;
 }
 
 .title{
@@ -72,12 +73,14 @@ p {
     bottom: -15px;
     top: 100px;
     font-family: "Verdana", Geneva, "sans-serif";
+    font-size: 15px;
+    left: 0%;
+    bottom: 75%;
+    transform: translate(-10%, -50%)
 
 
 }
 
-
-}
 
 img {
     width: 40%;
